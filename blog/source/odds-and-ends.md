@@ -12,13 +12,16 @@ preview: 一些零碎的笔记
 
 # 当windows下连接vpn使用nmap报出下列错误时：
 
-    “dnet: Failed to open device eth0
 
-    QUITTING!”
+```
+dnet: Failed to open device eth0
 
-    在nmap命令中增加 --unprivileged 一般就能解决问题，如果增加之后仍未解决，尝试重装winpcap/npcap
+QUITTING!
+```
+在nmap命令中增加 --unprivileged 一般就能解决问题，如果增加之后仍未解决，尝试重装winpcap/npcap
 
-    ```nmap -A -Pn 10.222.10.110 --unprivileged```
+``` nmap -A -Pn 10.222.10.110 --unprivileged ```
+
 # PHP里面的三种压缩函数压缩率比较
 ```
 <?php
@@ -89,6 +92,7 @@ echo urlencode($s), "\n";
 [i] /usr/local/bin/searchsploit -t apache httpd 2 4 28
 ...
 ```
+
 # 巡风一键安装后，需要临时远程操作数据库时的启动命令
 ```
 /opt/xunfeng/xunfengdb/bin/xunfeng_db --bind_ip 0.0.0.0 --port 65521 --dbpath=/var/lib/xunfeng --logpath=/var/log/xunfeng/xunfeng_db.log --auth
