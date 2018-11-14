@@ -1,15 +1,15 @@
 title: 为纸小墨一键创建md文件
 date: 2018-11-14 11:25:26
 update: ""
-author: Akkuman
-tags: 
-- 
+author: Akkuman 
+tags:
+- 笔记
 categories: 
 - 
 topic: ""
 cover: ""
 draft: false
-preview: ""
+preview: "为纸小墨自动生成md文件信息头"
 top: false
 type: ""
 hide: false
