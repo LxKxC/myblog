@@ -1,6 +1,6 @@
 title: "零碎的笔记"
 date: 2018-11-10 16:20:00 +0800
-update: 2018-11-10 16:20:00 +0800
+update: 2018-11-26 18:50:00 +0800
 author: me
 cover: ""
 top: true
@@ -96,4 +96,28 @@ echo urlencode($s), "\n";
 # 巡风一键安装后，需要临时远程操作数据库时的启动命令
 ```
 /opt/xunfeng/xunfengdb/bin/xunfeng_db --bind_ip 0.0.0.0 --port 65521 --dbpath=/var/lib/xunfeng --logpath=/var/log/xunfeng/xunfeng_db.log --auth
+```
+# Python 大小写转换
+
+代码：
+
+```
+# Filename : test.py
+# author by : AAAA.COM
+
+str = "aaaa.com bbb.com"
+print(str.upper())          # 把所有字符中的小写字母转换成大写字母
+print(str.lower())          # 把所有字符中的大写字母转换成小写字母
+print(str.capitalize())     # 把第一个字母转化为大写字母，其余小写
+print(str.title())          # 把每个单词的第一个字母转化为大写，其余小写 
+
+```
+
+输出结果：
+
+```
+AAAA.COM BBB.COM
+aaaa.com bbb.com
+Aaaa.com bbb.com
+Aaaa.Com Bbb.Com
 ```
